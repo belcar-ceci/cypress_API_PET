@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "List names of sold pets",
+    "line": 1,
+    "id": "list-names-of-sold-pets",
+    "tags": [],
+    "uri": "GetPetSold.feature",
+    "elements": [
+      {
+        "id": "list-names-of-sold-pets;collect-names-of-sold-pets",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Collect names of sold pets",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the Petstore API page",
+            "result": {
+              "status": "passed",
+              "duration": 1841000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I make a GET request to retrieve sold pet names",
+            "result": {
+              "status": "passed",
+              "duration": 148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the request should be successful",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the sold pet names should be listed",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

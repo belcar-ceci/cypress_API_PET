@@ -1,0 +1,74 @@
+[
+    {
+        "id": 20,
+        "category": {
+            "id": 2,
+            "name": "blisa"
+        },
+        "name": "skiper",
+        "photoUrls": [
+            "url"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 21,
+        "category": {
+            "id": 2,
+            "name": "blisa"
+        },
+        "name": "skiper",
+        "photoUrls": [
+            "url"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 22,
+        "category": {
+            "id": 2,
+            "name": "cocoa"
+        },
+        "name": "skiper",
+        "photoUrls": [
+            "url"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 23,
+        "category": {
+            "id": 2,
+            "name": "cocoa"
+        },
+        "name": "skiper",
+        "photoUrls": [
+            "url"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    }
+]

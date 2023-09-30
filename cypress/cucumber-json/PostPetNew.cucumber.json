@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    I want to add a new pet in the petstore\n    Its better than let it alone in the streets",
+    "keyword": "Feature",
+    "name": "Adding a new pet into the store",
+    "line": 1,
+    "id": "adding-a-new-pet-into-the-store",
+    "tags": [],
+    "uri": "PostPetNew.feature",
+    "elements": [
+      {
+        "id": "adding-a-new-pet-into-the-store;insert-a-new-pet-with-available-status",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Insert a new pet with available status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "content": "  \n  {\n      \"id\": 999348444,\n      \"category\": {\n         \"id\": 2,\n         \"name\": \"Bulbasur Pokemon\"\n      },\n      \"name\": \"Cecilia Carbel\",\n      \"photoUrls\": [\n        \"www.google.com\"\n      ],\n      \"tags\": [\n          {\n          \"id\": 37,\n          \"name\": \"TestQA\"\n          }\n      ],\n      \"status\": \"sold\"\n  }",
+                "line": 7
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I set the request body to:",
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I send the API request",
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the response status should be 200",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "content": "  {\n      \"id\": 999348444,\n      \"category\": {\n         \"id\": 2,\n         \"name\": \"Bulbasur Pokemon\"\n      },\n      \"name\": \"Cecilia Carbel\",\n      \"photoUrls\": [\n        \"www.google.com\"\n      ],\n      \"tags\": [\n          {\n          \"id\": 37,\n          \"name\": \"TestQA\"\n          }\n      ],\n      \"status\": \"sold\"\n  }",
+                "line": 31
+              }
+            ],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the response body should contain:",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

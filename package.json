@@ -1,0 +1,28 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "Automation Test: Data processing in APIs, HTTP P etition, the JSON that returns the /pet/findByStatus endpoint and lists via a function the names of the pets that have been sold, and create a class whose constructor requires the above data structure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "Cecilia Carbajal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "cucumber-html-reporter": "^5.5.0",
+    "cypress": "^12.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^3.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

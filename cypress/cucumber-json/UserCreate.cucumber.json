@@ -1,0 +1,57 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Automating the creation and retrieval of a user in the Petstore API",
+    "line": 1,
+    "id": "automating-the-creation-and-retrieval-of-a-user-in-the-petstore-api",
+    "tags": [],
+    "uri": "UserCreate.feature",
+    "elements": [
+      {
+        "id": "automating-the-creation-and-retrieval-of-a-user-in-the-petstore-api;creating-a-new-user-in-the-api",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Creating a new user in the API",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the Petstore API page",
+            "result": {
+              "status": "passed",
+              "duration": 175000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "content": "  {\n     \"id\": \"111224\",\n     \"username\": \"ferka\",\n     \"firstName\": \"Fernanda\",\n     \"lastName\": \"Carmona\",\n     \"email\": \"ferkar@petshop.com\",\n     \"password\": \"catwhitez\",\n     \"phone\": \"666777900\",\n     \"userStatus\": \"5\"\n  }",
+                "line": 6
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I make a POST request to create a user with the following data:",
+            "result": {
+              "status": "passed",
+              "duration": 170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the request should be successful",
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
