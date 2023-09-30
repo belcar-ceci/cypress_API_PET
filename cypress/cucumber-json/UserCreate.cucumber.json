@@ -22,7 +22,7 @@
             "name": "I am on the Petstore API page",
             "result": {
               "status": "passed",
-              "duration": 175000000
+              "duration": 170000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "I make a POST request to create a user with the following data:",
             "result": {
               "status": "passed",
-              "duration": 170000000
+              "duration": 168000000
             }
           },
           {
@@ -47,7 +47,7 @@
             "name": "the request should be successful",
             "result": {
               "status": "passed",
-              "duration": 160000000
+              "duration": 178000000
             }
           }
         ]
